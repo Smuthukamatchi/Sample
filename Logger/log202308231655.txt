@@ -1,0 +1,11 @@
+2023-08-23 16:55:04.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-23 16:55:04.260 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-23 16:55:04.261 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-23 16:55:04.261 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-23 16:55:04.264 +05:30 [INF] Executed ViewResult - view Index executed in 2.6487ms.
+2023-08-23 16:55:04.264 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 3.423ms
+2023-08-23 16:55:04.268 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-23 16:55:04.268 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 179.8539ms
+2023-08-23 16:55:04.514 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:55:04.514 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3604ms
+2023-08-23 16:55:23.539 +05:30 [INF] Application is shutting down...

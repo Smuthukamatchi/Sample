@@ -1,0 +1,57 @@
+@model Sample.Data.Attendance
+@using Sample.Data
+
+@{
+    ViewBag.Title = "Add Attendance";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+    var successMessage = TempData["SuccessMessage"] as string;
+}
+
+<!-- <head>
+    <link rel="stylesheet" href="/css/dashboard.cshtmlcss"/>
+</head> -->
+<div class="text-begin">
+    <h2 class="display-7 align-text-center text-warning ">Add Attendance</h2>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-body bg-dark">
+                    <div class="form-box bg-dark text-light">
+                        @using (Html.BeginForm("AddAttendance", "Employee", FormMethod.Post))
+                        {
+                            <div class="form-group">
+                                <label>Employee ID:</label>
+                                <div>@Model.EmpId</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Employee Name:</label>
+                                <div>@Model.EmployeeName</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Attendance Date:</label>
+                                @Html.TextBoxFor(model => model.AttendanceDate, new { @class = "form-control", @readonly = "readonly" })
+                                @Html.ValidationMessageFor(model => model.AttendanceDate)
+                            </div>
+
+                            <div class="btn-container">
+                                <input type="submit" value="Add" class="btn btn-warning" />
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <script>
+        alert('@successMessage');
+    </script>
+}

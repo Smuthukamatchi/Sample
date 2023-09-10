@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Employee Dashboard";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+
+<!-- Content of the AdminDashboard view goes here -->
+
+    
+    <div class="container justify-content-center align-items-middle" >
+        <div class="row">
+            <div class="col-md-4 mx-auto">
+                <div class="card text-center bg-dark">
+                    <div class="card-body">
+                        <h1 class="display-4 text-light">Welcome,</h1>
+                        <h2 class="text-warning fw-bold">@ViewData["EmployeeName"]</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-middle">
+        <div class="col-md-4">
+            
+                <div class="card-body"  style="width: 310px; margin-right: 10px;">
+                    <img src="/images/Employee2Gif.gif" alt="Employee Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    </div>

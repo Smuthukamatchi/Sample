@@ -1,0 +1,115 @@
+2023-08-23 16:54:00.828 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Admin/AddSalary/1 application/x-www-form-urlencoded 218
+2023-08-23 16:54:00.954 +05:30 [INF] Executing endpoint 'Sample.Controllers.AdminController.AddSalary (Sample)'
+2023-08-23 16:54:00.966 +05:30 [INF] Route matched with {action = "AddSalary", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddSalary(Int32, System.Decimal, Int32) on controller Sample.Controllers.AdminController (Sample).
+2023-08-23 16:54:01.016 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[@__empId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[EmpId] = @__empId_0
+2023-08-23 16:54:01.133 +05:30 [INF] Salary Added to 1
+2023-08-23 16:54:01.427 +05:30 [INF] Executed DbCommand (290ms) [Parameters=[@__empId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[EmpId] = @__empId_0
+2023-08-23 16:54:01.721 +05:30 [INF] Executed DbCommand (283ms) [Parameters=[@__8__locals1_empId_0='?' (DbType = Int32), @__startDate_1='?' (DbType = DateTime2), @__endDate_2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Attendances] AS [a]
+WHERE [a].[EmpId] = @__8__locals1_empId_0 AND [a].[AttendanceDate] >= @__startDate_1 AND [a].[AttendanceDate] <= @__endDate_2
+2023-08-23 16:54:04.604 +05:30 [INF] Executed DbCommand (2,324ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = DateTime2), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Salaries] ([Designation], [EmpId], [EmployeeName], [NetSalary], [SalaryAmount], [SalaryDate], [TaxAmount], [TotalPFAmount])
+OUTPUT INSERTED.[SalaryId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2023-08-23 16:54:04.655 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Admin/Salary.
+2023-08-23 16:54:04.655 +05:30 [INF] Executed action Sample.Controllers.AdminController.AddSalary (Sample) in 3688.9992ms
+2023-08-23 16:54:04.656 +05:30 [INF] Executed endpoint 'Sample.Controllers.AdminController.AddSalary (Sample)'
+2023-08-23 16:54:04.657 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Admin/AddSalary/1 application/x-www-form-urlencoded 218 - 302 0 - 3827.3725ms
+2023-08-23 16:54:04.694 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Admin/Salary - -
+2023-08-23 16:54:04.695 +05:30 [INF] Executing endpoint 'Sample.Controllers.AdminController.Salary (Sample)'
+2023-08-23 16:54:04.695 +05:30 [INF] Route matched with {action = "Salary", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Salary() on controller Sample.Controllers.AdminController (Sample).
+2023-08-23 16:54:04.823 +05:30 [INF] Executed DbCommand (126ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+2023-08-23 16:54:04.824 +05:30 [INF] Executing ViewResult, running view ~/Views/Admin/Salary.cshtml.
+2023-08-23 16:54:04.827 +05:30 [INF] Executed ViewResult - view ~/Views/Admin/Salary.cshtml executed in 2.9238ms.
+2023-08-23 16:54:04.827 +05:30 [INF] Executed action Sample.Controllers.AdminController.Salary (Sample) in 131.6642ms
+2023-08-23 16:54:04.827 +05:30 [INF] Executed endpoint 'Sample.Controllers.AdminController.Salary (Sample)'
+2023-08-23 16:54:04.827 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Admin/Salary - - - 200 - text/html;+charset=utf-8 132.9164ms
+2023-08-23 16:54:04.988 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:54:04.988 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2736ms
+2023-08-23 16:54:08.032 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-23 16:54:08.032 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-23 16:54:08.033 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-23 16:54:08.033 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-23 16:54:08.046 +05:30 [INF] Executed ViewResult - view Index executed in 13.0904ms.
+2023-08-23 16:54:08.047 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 13.7562ms
+2023-08-23 16:54:08.047 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-23 16:54:08.047 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 14.9421ms
+2023-08-23 16:54:08.320 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:54:08.322 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.6861ms
+2023-08-23 16:54:09.393 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-23 16:54:09.394 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-23 16:54:09.394 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-23 16:54:09.394 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-23 16:54:09.399 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 4.0578ms.
+2023-08-23 16:54:09.399 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 4.7129ms
+2023-08-23 16:54:09.399 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-23 16:54:09.399 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 5.9907ms
+2023-08-23 16:54:09.543 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:54:09.543 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2708ms
+2023-08-23 16:54:14.111 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 227
+2023-08-23 16:54:14.112 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-23 16:54:14.112 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-23 16:54:14.198 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-23 16:54:14.199 +05:30 [INF] Login by Muthu Kamatchi
+2023-08-23 16:54:14.200 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi.
+2023-08-23 16:54:14.200 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 87.8951ms
+2023-08-23 16:54:14.200 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-23 16:54:14.201 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 227 - 302 0 - 90.2900ms
+2023-08-23 16:54:14.319 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi - -
+2023-08-23 16:54:14.364 +05:30 [INF] Executing endpoint 'Sample.Controllers.EmployeeController.EmployeeDashboard (Sample)'
+2023-08-23 16:54:14.368 +05:30 [INF] Route matched with {action = "EmployeeDashboard", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EmployeeDashboard(System.String) on controller Sample.Controllers.EmployeeController (Sample).
+2023-08-23 16:54:14.371 +05:30 [INF] Executing ViewResult, running view ~/Views/Employee/EmployeeDashboard.cshtml.
+2023-08-23 16:54:14.392 +05:30 [INF] Executed ViewResult - view ~/Views/Employee/EmployeeDashboard.cshtml executed in 22.9174ms.
+2023-08-23 16:54:14.392 +05:30 [INF] Executed action Sample.Controllers.EmployeeController.EmployeeDashboard (Sample) in 24.0497ms
+2023-08-23 16:54:14.392 +05:30 [INF] Executed endpoint 'Sample.Controllers.EmployeeController.EmployeeDashboard (Sample)'
+2023-08-23 16:54:14.393 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi - - - 200 - text/html;+charset=utf-8 73.8639ms
+2023-08-23 16:54:14.622 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:54:14.623 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3041ms
+2023-08-23 16:54:17.077 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewProfile - -
+2023-08-23 16:54:17.078 +05:30 [INF] Executing endpoint 'Sample.Controllers.EmployeeController.ViewProfile (Sample)'
+2023-08-23 16:54:17.095 +05:30 [INF] Route matched with {action = "ViewProfile", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewProfile() on controller Sample.Controllers.EmployeeController (Sample).
+2023-08-23 16:54:17.127 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[@__employeeName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__employeeName_0
+2023-08-23 16:54:17.128 +05:30 [INF] Profile viewed by Muthu Kamatchi
+2023-08-23 16:54:17.131 +05:30 [INF] Executing ViewResult, running view ~/Views/Employee/ViewProfile.cshtml.
+2023-08-23 16:54:17.134 +05:30 [INF] Executed ViewResult - view ~/Views/Employee/ViewProfile.cshtml executed in 6.3718ms.
+2023-08-23 16:54:17.134 +05:30 [INF] Executed action Sample.Controllers.EmployeeController.ViewProfile (Sample) in 39.127ms
+2023-08-23 16:54:17.135 +05:30 [INF] Executed endpoint 'Sample.Controllers.EmployeeController.ViewProfile (Sample)'
+2023-08-23 16:54:17.135 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewProfile - - - 200 - text/html;+charset=utf-8 57.4234ms
+2023-08-23 16:54:17.540 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:54:17.540 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3337ms
+2023-08-23 16:54:18.462 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewSalary - -
+2023-08-23 16:54:18.463 +05:30 [INF] Executing endpoint 'Sample.Controllers.EmployeeController.ViewSalary (Sample)'
+2023-08-23 16:54:18.463 +05:30 [INF] Route matched with {action = "ViewSalary", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewSalary() on controller Sample.Controllers.EmployeeController (Sample).
+2023-08-23 16:54:18.805 +05:30 [INF] Executed DbCommand (340ms) [Parameters=[@__employeeName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[SalaryId], [s].[Designation], [s].[EmpId], [s].[EmployeeName], [s].[NetSalary], [s].[SalaryAmount], [s].[SalaryDate], [s].[TaxAmount], [s].[TotalPFAmount]
+FROM [Salaries] AS [s]
+WHERE [s].[EmployeeName] = @__employeeName_0
+ORDER BY [s].[SalaryDate] DESC
+2023-08-23 16:54:18.995 +05:30 [INF] Executed DbCommand (189ms) [Parameters=[@__8__locals1_employeeName_0='?' (Size = 4000), @__selectedYear_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([s].[SalaryAmount]), 0.0)
+FROM [Salaries] AS [s]
+WHERE [s].[EmployeeName] = @__8__locals1_employeeName_0 AND DATEPART(year, [s].[SalaryDate]) = @__selectedYear_1
+2023-08-23 16:54:18.997 +05:30 [INF] Executing ViewResult, running view ~/Views/Employee/ViewSalary.cshtml.
+2023-08-23 16:54:18.999 +05:30 [INF] Executed ViewResult - view ~/Views/Employee/ViewSalary.cshtml executed in 4.4812ms.
+2023-08-23 16:54:19.000 +05:30 [INF] Executed action Sample.Controllers.EmployeeController.ViewSalary (Sample) in 536.7935ms
+2023-08-23 16:54:19.000 +05:30 [INF] Executed endpoint 'Sample.Controllers.EmployeeController.ViewSalary (Sample)'
+2023-08-23 16:54:19.000 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewSalary - - - 200 - text/html;+charset=utf-8 537.8336ms
+2023-08-23 16:54:19.191 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:54:19.191 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2477ms

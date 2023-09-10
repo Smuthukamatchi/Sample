@@ -1,0 +1,79 @@
+@model Sample.Data.Employee
+
+@{
+    ViewData["Title"] = "Edit Profile";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+    var successMessage = TempData["SuccessMessage"] as string;
+}
+
+<div class="text-begin">
+    <h2 class="display-7 justify-content-center text-warning">Edit Profile</h2>
+</div>
+
+<div class="container col-md-8">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-body bg-dark text-light" style="max-height: 400px; overflow-y: auto;">
+                    <form method="post" asp-action="UpdateProfile" asp-controller="Employee">
+                        <div class="form-group">
+                            <label for="empId">Employee ID</label>
+                            <input type="text" id="empId" name="EmpId" value="@Model.EmpId" class="form-control" readonly />
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="Name" value="@Model.Name" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dateOfBirth">Date of Birth</label>
+                            <input type="date" id="dateOfBirth" name="DateOfBirth" value="@Model.DateOfBirth.ToString("yyyy-MM-dd")" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="Email" value="@Model.Email" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <input type="text" id="location" name="Location" value="@Model.Location" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactNumber">Contact Number</label>
+                            <input type="text" id="contactNumber" name="ContactNumber" value="@Model.ContactNumber" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="designation">Designation</label>
+                            <input type="text" id="designation" name="Designation" value="@Model.Designation" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dateOfJoin">Date of Join</label>
+                            <input type="date" id="dateOfJoin" name="DateOfJoin" value="@Model.DateOfJoin.ToString("yyyy-MM-dd")" class="form-control" />
+                        </div>
+
+                        <!-- Include the Password field to allow updating the password -->
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="Password" value="@Model.Password" class="form-control" />
+                        </div>
+
+                        <div class="text-center fw-bold">
+                            <button type="submit" class="btn btn-warning">Update</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <script>
+        // Display the success message using a toast or alert
+        alert('@successMessage');
+    </script>
+}

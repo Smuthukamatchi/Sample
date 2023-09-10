@@ -1,0 +1,493 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Sample.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Sample.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\css\\employee.css",
+      "PackagePath": "staticwebassets\\css\\employee.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\Admin2.avif",
+      "PackagePath": "staticwebassets\\images\\Admin2.avif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\Admin2.png",
+      "PackagePath": "staticwebassets\\images\\Admin2.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\Admin2Gif.gif",
+      "PackagePath": "staticwebassets\\images\\Admin2Gif.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\AdminGif.gif",
+      "PackagePath": "staticwebassets\\images\\AdminGif.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\AdminNew.jpg",
+      "PackagePath": "staticwebassets\\images\\AdminNew.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\AdminNew1.jpg",
+      "PackagePath": "staticwebassets\\images\\AdminNew1.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\Adminnew.png",
+      "PackagePath": "staticwebassets\\images\\Adminnew.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\Employee2Gif.gif",
+      "PackagePath": "staticwebassets\\images\\Employee2Gif.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\EmployeeGif.gif",
+      "PackagePath": "staticwebassets\\images\\EmployeeGif.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\admin1.jpg",
+      "PackagePath": "staticwebassets\\images\\admin1.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\admin3.jpg",
+      "PackagePath": "staticwebassets\\images\\admin3.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\admin4.jpg",
+      "PackagePath": "staticwebassets\\images\\admin4.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\back2.jpg",
+      "PackagePath": "staticwebassets\\images\\back2.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\back3.jpg",
+      "PackagePath": "staticwebassets\\images\\back3.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\back4.jpg",
+      "PackagePath": "staticwebassets\\images\\back4.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\back5.jpg",
+      "PackagePath": "staticwebassets\\images\\back5.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\cash counter.gif",
+      "PackagePath": "staticwebassets\\images\\cash counter.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\cash2.gif",
+      "PackagePath": "staticwebassets\\images\\cash2.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\cash2.png",
+      "PackagePath": "staticwebassets\\images\\cash2.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\cashmachine.jpg",
+      "PackagePath": "staticwebassets\\images\\cashmachine.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\coin1.jpg",
+      "PackagePath": "staticwebassets\\images\\coin1.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\coin2.png",
+      "PackagePath": "staticwebassets\\images\\coin2.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\coin5.png",
+      "PackagePath": "staticwebassets\\images\\coin5.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\crd.jpg",
+      "PackagePath": "staticwebassets\\images\\crd.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\digital.jpg",
+      "PackagePath": "staticwebassets\\images\\digital.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\digital.png",
+      "PackagePath": "staticwebassets\\images\\digital.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\digital.webp",
+      "PackagePath": "staticwebassets\\images\\digital.webp"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\emp1.jpg",
+      "PackagePath": "staticwebassets\\images\\emp1.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\empg.jpg",
+      "PackagePath": "staticwebassets\\images\\empg.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\employee.png",
+      "PackagePath": "staticwebassets\\images\\employee.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\favicon.ico.jpg",
+      "PackagePath": "staticwebassets\\images\\favicon.ico.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\finger.jpg",
+      "PackagePath": "staticwebassets\\images\\finger.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\group.jpg",
+      "PackagePath": "staticwebassets\\images\\group.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\group.png",
+      "PackagePath": "staticwebassets\\images\\group.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\img1.gif",
+      "PackagePath": "staticwebassets\\images\\img1.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\img2.gif",
+      "PackagePath": "staticwebassets\\images\\img2.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\istockphoto-1373114768-1024x1024.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1373114768-1024x1024.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\login.gif",
+      "PackagePath": "staticwebassets\\images\\login.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\money.webp",
+      "PackagePath": "staticwebassets\\images\\money.webp"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\money2.gif",
+      "PackagePath": "staticwebassets\\images\\money2.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\money3.gif",
+      "PackagePath": "staticwebassets\\images\\money3.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\money3d.jpg",
+      "PackagePath": "staticwebassets\\images\\money3d.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\pexels-gustavo-fring-5163381.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-gustavo-fring-5163381.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\pexels-panumas-nikhomkhai-17155842.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-panumas-nikhomkhai-17155842.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\pexels-pranav-choubey-6901511.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-pranav-choubey-6901511.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\pexels-rostislav-uzunov-5011647.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-rostislav-uzunov-5011647.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\sourajit-hazra-hIVVf4RiPUY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\sourajit-hazra-hIVVf4RiPUY-unsplash.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\tech1.gif",
+      "PackagePath": "staticwebassets\\images\\tech1.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\tech2.jpg",
+      "PackagePath": "staticwebassets\\images\\tech2.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\tech3.jpg",
+      "PackagePath": "staticwebassets\\images\\tech3.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\tech4.png",
+      "PackagePath": "staticwebassets\\images\\tech4.png"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\tech5.jpg",
+      "PackagePath": "staticwebassets\\images\\tech5.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\tech6.jpg",
+      "PackagePath": "staticwebassets\\images\\tech6.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\tech9.gif",
+      "PackagePath": "staticwebassets\\images\\tech9.gif"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\wec2.jpg",
+      "PackagePath": "staticwebassets\\images\\wec2.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\images\\welcome.jpg",
+      "PackagePath": "staticwebassets\\images\\welcome.jpg"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Shiva_Folder\\ASPIRE\\.NET\\Sample\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Sample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Sample.props",
+      "PackagePath": "build\\Sample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Sample.props",
+      "PackagePath": "buildMultiTargeting\\Sample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Sample.props",
+      "PackagePath": "buildTransitive\\Sample.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

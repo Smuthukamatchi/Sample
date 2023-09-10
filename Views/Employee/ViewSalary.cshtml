@@ -1,0 +1,76 @@
+@{
+    ViewData["Title"] = "Salary Details";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+
+<div class="text-begin">
+    <h2 class="display-7 align-text-center text-warning">@ViewData["EmployeeName"]'s Salary</h2>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+       
+            <div class="card">
+                <div class="card-body bg-dark " style="max-height: 400px; overflow-y: auto;">
+
+                    <form method="post">
+                        <div class="form-group text-light">
+                            <label for="selectedDate">Search by Date:</label>
+                            <input type="date" class="form-control rounded-pill bg-dark text-light " id="selectedDate" name="selectedDate" required>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-warning  rounded"> Find</button>
+                        </div>
+                    </form>
+                    <br>
+                    <table class="table text-light">
+                        <tr>
+                            <th>Employee ID</th>
+                            <td>@ViewData["EmployeeId"]</td>
+                        </tr>
+                        <tr>
+                            <th>Designation</th>
+                            <td>@ViewData["EmployeeDesignation"]</td>
+                        </tr>
+                        <tr>
+                            <th>Salary Date</th>
+                            <td>@ViewData["SalaryDate"]</td>
+                        </tr>
+                        <tr>
+                            <th>Salary Amount</th>
+                            <td>@ViewData["SalaryAmount"]</td>
+                        </tr>
+                        <tr>
+                            <th>Tax Amount</th>
+                            <td>@ViewData["TaxAmount"]</td>
+                        </tr>
+                        <tr>
+                            <th>Total PF Amount</th>
+                            <td>@ViewData["TotalPFAmount"]</td>
+                        </tr>
+                        <tr>
+                            <th>Net Salary</th>
+                            <td>@ViewData["NetSalary"]</td>
+                        </tr>
+
+                        @if (ViewData["TotalSalaryForSelectedYear"] != null)
+                        {
+                            <tr>
+                                <th>Total salary for current year</th>
+                                <th>@ViewData["TotalSalaryForSelectedYear"]</th>
+                            </tr> 
+                        }
+                    </table>
+                </div>
+            </div>
+             <div class="text-end p-1">
+           <button type="button" class="btn btn-info p-1 rounded" onclick="printContent()">&#128438; Print</button>
+        </div>
+        </div>
+    </div>
+</div>
+<script>
+    function printContent() {
+        window.print();
+    }
+</script>

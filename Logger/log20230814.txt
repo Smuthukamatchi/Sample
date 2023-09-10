@@ -1,0 +1,893 @@
+2023-08-14 11:36:26.402 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-14 11:36:26.765 +05:30 [INF] Now listening on: http://localhost:5157
+2023-08-14 11:36:26.781 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-14 11:36:26.781 +05:30 [INF] Hosting environment: Development
+2023-08-14 11:36:26.781 +05:30 [INF] Content root path: E:\Shiva_Folder\ASPIRE\.NET\Sample
+2023-08-14 11:40:50.755 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/ - -
+2023-08-14 11:40:50.997 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-14 11:40:51.259 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 11:40:51.444 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 11:40:54.158 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 11:40:54.621 +05:30 [INF] Executed ViewResult - view Index executed in 667.5864ms.
+2023-08-14 11:40:54.624 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 3177.7537ms
+2023-08-14 11:40:54.624 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 11:40:54.697 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/ - - - 200 - text/html;+charset=utf-8 3949.1706ms
+2023-08-14 11:40:55.089 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 11:40:55.097 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 7.7107ms
+2023-08-14 11:40:55.429 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - -
+2023-08-14 11:40:55.466 +05:30 [INF] The file /Sample.styles.css was not modified
+2023-08-14 11:40:55.467 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - - - 304 - text/css 37.7004ms
+2023-08-14 11:40:55.608 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/coin5.png - -
+2023-08-14 11:40:55.609 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/group.png - -
+2023-08-14 11:40:56.428 +05:30 [INF] Sending file. Request path: '/images/coin5.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\coin5.png'
+2023-08-14 11:40:56.431 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/coin5.png - - - 200 17233 image/png 823.1917ms
+2023-08-14 11:40:56.439 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/money3.gif - -
+2023-08-14 11:40:56.568 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/favicon.ico - -
+2023-08-14 11:40:56.936 +05:30 [INF] Sending file. Request path: '/images/group.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\group.png'
+2023-08-14 11:40:56.936 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/group.png - - - 200 138278 image/png 1326.8054ms
+2023-08-14 11:40:57.260 +05:30 [INF] Sending file. Request path: '/images/money3.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\money3.gif'
+2023-08-14 11:40:57.260 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/money3.gif - - - 200 146424 image/gif 821.6516ms
+2023-08-14 11:40:57.264 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\favicon.ico'
+2023-08-14 11:40:57.264 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/favicon.ico - - - 200 152126 image/x-icon 696.6176ms
+2023-08-14 12:07:57.993 +05:30 [INF] Application is shutting down...
+2023-08-14 12:49:41.307 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-14 12:49:41.935 +05:30 [INF] Now listening on: http://localhost:5157
+2023-08-14 12:49:41.949 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-14 12:49:41.950 +05:30 [INF] Hosting environment: Development
+2023-08-14 12:49:41.950 +05:30 [INF] Content root path: E:\Shiva_Folder\ASPIRE\.NET\Sample
+2023-08-14 12:49:52.337 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/ - -
+2023-08-14 12:49:52.667 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-14 12:49:53.059 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 12:49:53.378 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:49:54.106 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 12:49:54.543 +05:30 [INF] Executed ViewResult - view Index executed in 538.2463ms.
+2023-08-14 12:49:54.647 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 1268.1044ms
+2023-08-14 12:49:54.647 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 12:49:54.786 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:49:54.807 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 20.2847ms
+2023-08-14 12:49:54.808 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-08-14 12:49:54.845 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-08-14 12:49:54.939 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\css\site.css'
+2023-08-14 12:49:54.942 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 200 362 text/css 97.6533ms
+2023-08-14 12:49:54.950 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - -
+2023-08-14 12:49:54.953 +05:30 [INF] Sending file. Request path: '/Sample.styles.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\obj\Debug\net7.0\scopedcss\bundle\Sample.styles.css'
+2023-08-14 12:49:54.953 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - - - 200 1880 text/css 2.7808ms
+2023-08-14 12:49:54.967 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/ - - - 200 - text/html;+charset=utf-8 2643.0596ms
+2023-08-14 12:49:54.970 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/money3.gif - -
+2023-08-14 12:49:54.971 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/coin5.png - -
+2023-08-14 12:49:54.972 +05:30 [INF] Sending file. Request path: '/images/coin5.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\coin5.png'
+2023-08-14 12:49:54.972 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/coin5.png - - - 200 17233 image/png 0.8078ms
+2023-08-14 12:49:54.973 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/group.png - -
+2023-08-14 12:49:54.980 +05:30 [INF] Sending file. Request path: '/images/money3.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\money3.gif'
+2023-08-14 12:49:54.980 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/money3.gif - - - 200 146424 image/gif 10.5691ms
+2023-08-14 12:49:54.981 +05:30 [INF] Sending file. Request path: '/images/group.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\group.png'
+2023-08-14 12:49:54.981 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/group.png - - - 200 138278 image/png 8.4684ms
+2023-08-14 12:49:54.992 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-08-14 12:49:54.992 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 184.3111ms
+2023-08-14 12:49:55.235 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/favicon.ico - -
+2023-08-14 12:49:55.383 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\favicon.ico'
+2023-08-14 12:49:55.384 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/favicon.ico - - - 0 152126 image/x-icon 148.6111ms
+2023-08-14 12:50:05.164 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 12:50:05.222 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:50:05.227 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:50:05.255 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:50:05.589 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 335.9436ms.
+2023-08-14 12:50:05.590 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 362.2993ms
+2023-08-14 12:50:05.590 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:50:05.590 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 426.4873ms
+2023-08-14 12:50:05.720 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:50:05.720 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3364ms
+2023-08-14 12:50:10.106 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 232
+2023-08-14 12:50:10.125 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:50:10.157 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:50:11.434 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 12:50:11.435 +05:30 [WRN] No store type was specified for the decimal property 'TaxAmount' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 12:50:11.436 +05:30 [WRN] No store type was specified for the decimal property 'TotalPFAmount' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 12:50:14.120 +05:30 [INF] Executed DbCommand (165ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 12:50:14.405 +05:30 [INF] Login by Ashwin Vijay
+2023-08-14 12:50:14.409 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay.
+2023-08-14 12:50:14.413 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 4254.3165ms
+2023-08-14 12:50:14.414 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:50:14.415 +05:30 [INF] Session started; Key:9c244a74-f668-286e-3108-e65d5ca8d0ad, Id:8112a79c-f050-db9a-67a4-398163c60c2f
+2023-08-14 12:50:14.487 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 232 - 302 0 - 4381.0928ms
+2023-08-14 12:50:14.488 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - -
+2023-08-14 12:50:14.501 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:50:14.587 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-14 12:50:14.850 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - - - 500 - text/html;+charset=utf-8 363.0222ms
+2023-08-14 12:50:15.011 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:50:15.012 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3175ms
+2023-08-14 12:51:18.389 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - -
+2023-08-14 12:51:18.393 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:51:18.397 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-14 12:51:18.400 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - - - 500 - text/html;+charset=utf-8 11.3688ms
+2023-08-14 12:51:18.623 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:51:18.623 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2887ms
+2023-08-14 12:51:45.511 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - -
+2023-08-14 12:51:45.519 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:51:45.524 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-14 12:51:45.526 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - - - 500 - text/html;+charset=utf-8 15.0763ms
+2023-08-14 12:51:45.593 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:51:45.593 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2719ms
+2023-08-14 12:51:56.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - -
+2023-08-14 12:51:56.053 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:51:56.059 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-14 12:51:56.061 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - - - 500 - text/html;+charset=utf-8 9.2948ms
+2023-08-14 12:51:56.131 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:51:56.131 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4862ms
+2023-08-14 12:53:26.502 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - -
+2023-08-14 12:53:26.503 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:53:26.507 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-14 12:53:26.511 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - - - 500 - text/html;+charset=utf-8 8.0973ms
+2023-08-14 12:53:26.605 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:53:26.605 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2614ms
+2023-08-14 12:53:28.016 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - -
+2023-08-14 12:53:28.017 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:53:28.019 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-14 12:53:28.022 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - - - 500 - text/html;+charset=utf-8 7.9022ms
+2023-08-14 12:53:28.122 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:53:28.122 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6205ms
+2023-08-14 12:53:31.586 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 12:53:31.610 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:53:31.613 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:53:31.616 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:53:31.659 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 44.7691ms.
+2023-08-14 12:53:31.659 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 45.4109ms
+2023-08-14 12:53:31.659 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:53:31.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 73.1202ms
+2023-08-14 12:53:31.781 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/coin5.png - -
+2023-08-14 12:53:31.782 +05:30 [INF] Sending file. Request path: '/images/coin5.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\coin5.png'
+2023-08-14 12:53:31.782 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/coin5.png - - - 200 17233 image/png 1.2317ms
+2023-08-14 12:53:31.788 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/group.png - -
+2023-08-14 12:53:31.794 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:53:31.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2703ms
+2023-08-14 12:53:31.794 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/money3.gif - -
+2023-08-14 12:53:31.795 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/img2.gif - -
+2023-08-14 12:53:31.866 +05:30 [INF] Sending file. Request path: '/images/group.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\group.png'
+2023-08-14 12:53:31.867 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/group.png - - - 200 138278 image/png 78.8009ms
+2023-08-14 12:53:31.867 +05:30 [INF] Sending file. Request path: '/images/money3.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\money3.gif'
+2023-08-14 12:53:31.878 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/money3.gif - - - 200 146424 image/gif 72.7927ms
+2023-08-14 12:53:31.882 +05:30 [INF] Sending file. Request path: '/images/img2.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\img2.gif'
+2023-08-14 12:53:31.882 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/img2.gif - - - 200 965461 image/gif 86.8395ms
+2023-08-14 12:53:36.408 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 232
+2023-08-14 12:53:36.410 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:53:36.412 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:53:36.508 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 12:53:36.518 +05:30 [INF] Login by Ashwin Vijay
+2023-08-14 12:53:36.519 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay.
+2023-08-14 12:53:36.519 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 107.1848ms
+2023-08-14 12:53:36.519 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:53:36.521 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 232 - 302 0 - 112.9094ms
+2023-08-14 12:53:36.539 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - -
+2023-08-14 12:53:36.546 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:53:36.555 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-14 12:53:36.557 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - - - 500 - text/html;+charset=utf-8 17.4773ms
+2023-08-14 12:53:36.757 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:53:36.757 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3008ms
+2023-08-14 12:54:27.492 +05:30 [INF] Application is shutting down...
+2023-08-14 12:54:47.518 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-14 12:54:48.197 +05:30 [INF] Now listening on: http://localhost:5157
+2023-08-14 12:54:48.206 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-14 12:54:48.207 +05:30 [INF] Hosting environment: Development
+2023-08-14 12:54:48.208 +05:30 [INF] Content root path: E:\Shiva_Folder\ASPIRE\.NET\Sample
+2023-08-14 12:54:51.319 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/ - -
+2023-08-14 12:54:51.437 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-14 12:54:52.030 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 12:54:52.116 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:54:52.828 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 12:54:53.368 +05:30 [INF] Executed ViewResult - view Index executed in 539.6234ms.
+2023-08-14 12:54:53.373 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 1255.867ms
+2023-08-14 12:54:53.373 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 12:54:53.526 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:54:53.531 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 4.3607ms
+2023-08-14 12:54:53.721 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/ - - - 200 - text/html;+charset=utf-8 2408.0266ms
+2023-08-14 12:57:30.055 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 12:57:30.086 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:57:30.090 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:57:30.109 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:57:30.211 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 104.039ms.
+2023-08-14 12:57:30.218 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 127.9538ms
+2023-08-14 12:57:30.219 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:57:30.220 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 164.9500ms
+2023-08-14 12:57:30.340 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:57:30.341 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.9957ms
+2023-08-14 12:57:33.869 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229
+2023-08-14 12:57:33.884 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:57:33.907 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:57:34.851 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 12:57:34.874 +05:30 [WRN] No store type was specified for the decimal property 'TaxAmount' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 12:57:34.881 +05:30 [WRN] No store type was specified for the decimal property 'TotalPFAmount' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 12:57:36.574 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 12:57:36.765 +05:30 [INF] Login by Admin
+2023-08-14 12:57:36.773 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Admin/AdminDashboard.
+2023-08-14 12:57:36.774 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 2866.4812ms
+2023-08-14 12:57:36.774 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:57:36.817 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229 - 302 0 - 2948.0755ms
+2023-08-14 12:57:36.821 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - -
+2023-08-14 12:57:36.832 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:57:36.840 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-08-14 12:57:36.841 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - - - 302 0 - 19.9775ms
+2023-08-14 12:57:36.846 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 12:57:36.847 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:57:36.847 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:57:36.848 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:57:36.865 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 16.8029ms.
+2023-08-14 12:57:36.865 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 17.4165ms
+2023-08-14 12:57:36.865 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:57:36.865 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 18.8859ms
+2023-08-14 12:57:36.943 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:57:36.943 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3712ms
+2023-08-14 12:59:11.620 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 12:59:11.623 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:11.623 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:11.624 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:59:11.628 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 4.1331ms.
+2023-08-14 12:59:11.628 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 5.0688ms
+2023-08-14 12:59:11.628 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:11.629 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 8.9167ms
+2023-08-14 12:59:11.906 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:11.906 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2890ms
+2023-08-14 12:59:16.632 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 12:59:16.634 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:16.637 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:16.642 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:59:16.661 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 23.3441ms.
+2023-08-14 12:59:16.661 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 24.6013ms
+2023-08-14 12:59:16.661 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:16.662 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 30.2462ms
+2023-08-14 12:59:16.888 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:16.889 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4854ms
+2023-08-14 12:59:19.371 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 12:59:19.372 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:19.374 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:19.376 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:59:19.387 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 12.7767ms.
+2023-08-14 12:59:19.387 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 13.3599ms
+2023-08-14 12:59:19.387 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:19.388 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 17.3621ms
+2023-08-14 12:59:19.584 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:19.585 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3251ms
+2023-08-14 12:59:20.769 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 12:59:20.771 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:20.772 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:20.772 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:59:20.777 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 4.1093ms.
+2023-08-14 12:59:20.777 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 5.045ms
+2023-08-14 12:59:20.777 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:20.777 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 7.8020ms
+2023-08-14 12:59:20.905 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:20.906 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2655ms
+2023-08-14 12:59:22.062 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 12:59:22.076 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 12:59:22.079 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:22.081 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 12:59:22.085 +05:30 [INF] Executed ViewResult - view Index executed in 5.4131ms.
+2023-08-14 12:59:22.085 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 5.9588ms
+2023-08-14 12:59:22.085 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 12:59:22.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 23.4193ms
+2023-08-14 12:59:22.213 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:22.214 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2459ms
+2023-08-14 12:59:22.930 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 12:59:22.930 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 12:59:22.930 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:22.931 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 12:59:22.932 +05:30 [INF] Executed ViewResult - view Index executed in 1.0072ms.
+2023-08-14 12:59:22.932 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 1.4329ms
+2023-08-14 12:59:22.932 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 12:59:22.932 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 2.5740ms
+2023-08-14 12:59:23.051 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:23.051 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2600ms
+2023-08-14 12:59:24.724 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 12:59:24.728 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:24.728 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:24.729 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:59:24.731 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 1.8367ms.
+2023-08-14 12:59:24.731 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 2.3807ms
+2023-08-14 12:59:24.731 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:24.731 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 7.3755ms
+2023-08-14 12:59:24.885 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:24.885 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2752ms
+2023-08-14 12:59:29.578 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229
+2023-08-14 12:59:29.579 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:29.582 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:29.646 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 12:59:29.650 +05:30 [INF] Login by Admin
+2023-08-14 12:59:29.651 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Admin/AdminDashboard.
+2023-08-14 12:59:29.652 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 69.4847ms
+2023-08-14 12:59:29.652 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:29.653 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229 - 302 0 - 74.8791ms
+2023-08-14 12:59:29.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - -
+2023-08-14 12:59:29.674 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:59:29.676 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-08-14 12:59:29.676 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - - - 302 0 - 7.3499ms
+2023-08-14 12:59:29.734 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 12:59:29.742 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:29.743 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:29.743 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:59:29.745 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 1.7637ms.
+2023-08-14 12:59:29.745 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 2.3815ms
+2023-08-14 12:59:29.745 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:29.746 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 11.6717ms
+2023-08-14 12:59:29.878 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:29.878 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.2959ms
+2023-08-14 12:59:33.873 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 232
+2023-08-14 12:59:33.873 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:33.874 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:34.062 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 12:59:34.064 +05:30 [INF] Accessing expired session, Key:9c244a74-f668-286e-3108-e65d5ca8d0ad
+2023-08-14 12:59:34.064 +05:30 [INF] Login by Ashwin Vijay
+2023-08-14 12:59:34.066 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay.
+2023-08-14 12:59:34.066 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 192.376ms
+2023-08-14 12:59:34.066 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:34.067 +05:30 [INF] Session started; Key:9c244a74-f668-286e-3108-e65d5ca8d0ad, Id:17db3117-76fc-f979-9583-9453a9b67a18
+2023-08-14 12:59:34.069 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 232 - 302 0 - 196.4963ms
+2023-08-14 12:59:34.078 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - -
+2023-08-14 12:59:34.081 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 12:59:34.090 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-08-14 12:59:34.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Ashwin%20Vijay - - - 302 0 - 12.9830ms
+2023-08-14 12:59:34.102 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DAshwin%2520Vijay - -
+2023-08-14 12:59:34.102 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:34.103 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:34.103 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:59:34.109 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 5.6435ms.
+2023-08-14 12:59:34.109 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 6.1451ms
+2023-08-14 12:59:34.109 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:34.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DAshwin%2520Vijay - - - 200 - text/html;+charset=utf-8 7.0862ms
+2023-08-14 12:59:34.235 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:34.235 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2331ms
+2023-08-14 12:59:51.929 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DAshwin%2520Vijay - -
+2023-08-14 12:59:51.931 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:51.933 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 12:59:51.937 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 12:59:51.971 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 36.8722ms.
+2023-08-14 12:59:51.971 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 37.8711ms
+2023-08-14 12:59:51.971 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 12:59:51.972 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DAshwin%2520Vijay - - - 200 - text/html;+charset=utf-8 42.7626ms
+2023-08-14 12:59:52.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 12:59:52.075 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2632ms
+2023-08-14 13:01:57.911 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DAshwin%2520Vijay - -
+2023-08-14 13:01:57.912 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:01:57.915 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:01:57.918 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:01:57.927 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 11.4319ms.
+2023-08-14 13:01:57.927 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 12.1526ms
+2023-08-14 13:01:57.928 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:01:57.928 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DAshwin%2520Vijay - - - 200 - text/html;+charset=utf-8 16.4043ms
+2023-08-14 13:01:58.032 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:01:58.032 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2493ms
+2023-08-14 13:02:04.350 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DAshwin%2520Vijay - -
+2023-08-14 13:02:04.351 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:02:04.353 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:02:04.355 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:02:04.379 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 25.5309ms.
+2023-08-14 13:02:04.379 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 26.1448ms
+2023-08-14 13:02:04.379 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:02:04.379 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DAshwin%2520Vijay - - - 200 - text/html;+charset=utf-8 29.3371ms
+2023-08-14 13:02:04.462 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:02:04.462 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2261ms
+2023-08-14 13:02:08.624 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 13:02:08.626 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:02:08.656 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:02:08.658 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:02:08.700 +05:30 [INF] Executed ViewResult - view Index executed in 44.1316ms.
+2023-08-14 13:02:08.700 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 44.6365ms
+2023-08-14 13:02:08.700 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:02:08.701 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 76.6628ms
+2023-08-14 13:02:08.791 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:02:08.791 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3269ms
+2023-08-14 13:02:10.237 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 13:02:10.253 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:02:10.254 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:02:10.254 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:02:10.255 +05:30 [INF] Executed ViewResult - view Index executed in 0.888ms.
+2023-08-14 13:02:10.255 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 1.3244ms
+2023-08-14 13:02:10.255 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:02:10.255 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 17.8385ms
+2023-08-14 13:02:10.314 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:02:10.315 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2224ms
+2023-08-14 13:02:10.993 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 13:02:10.994 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:02:10.994 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:02:10.994 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:02:10.995 +05:30 [INF] Executed ViewResult - view Index executed in 0.5936ms.
+2023-08-14 13:02:10.995 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 0.9686ms
+2023-08-14 13:02:10.995 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:02:10.995 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 1.8387ms
+2023-08-14 13:02:11.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:02:11.076 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 11.6315ms
+2023-08-14 13:02:12.807 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:02:12.809 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:02:12.810 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:02:12.811 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:02:12.839 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 28.4487ms.
+2023-08-14 13:02:12.849 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 38.8736ms
+2023-08-14 13:02:12.849 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:02:12.850 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 42.7163ms
+2023-08-14 13:02:13.211 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:02:13.211 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4911ms
+2023-08-14 13:02:18.195 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229
+2023-08-14 13:02:18.196 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:02:18.204 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:02:18.240 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 13:02:18.241 +05:30 [INF] Login by Admin
+2023-08-14 13:02:18.242 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Admin/AdminDashboard.
+2023-08-14 13:02:18.242 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 37.5127ms
+2023-08-14 13:02:18.243 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:02:18.244 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229 - 302 0 - 49.3572ms
+2023-08-14 13:02:18.254 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - -
+2023-08-14 13:02:18.256 +05:30 [INF] Executing endpoint 'Sample.Controllers.AdminController.AdminDashboard (Sample)'
+2023-08-14 13:02:18.262 +05:30 [INF] Route matched with {action = "AdminDashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminDashboard(System.String) on controller Sample.Controllers.AdminController (Sample).
+2023-08-14 13:02:18.279 +05:30 [INF] Executing ViewResult, running view ~/Views/Admin/AdminDashboard.cshtml.
+2023-08-14 13:02:18.679 +05:30 [INF] Executed ViewResult - view ~/Views/Admin/AdminDashboard.cshtml executed in 403.8966ms.
+2023-08-14 13:02:18.692 +05:30 [INF] Executed action Sample.Controllers.AdminController.AdminDashboard (Sample) in 429.006ms
+2023-08-14 13:02:18.692 +05:30 [INF] Executed endpoint 'Sample.Controllers.AdminController.AdminDashboard (Sample)'
+2023-08-14 13:02:18.692 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - - - 200 - text/html;+charset=utf-8 437.7384ms
+2023-08-14 13:02:19.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:02:19.120 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5660ms
+2023-08-14 13:03:09.155 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 13:03:09.173 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:03:09.174 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:03:09.175 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:03:09.177 +05:30 [INF] Executed ViewResult - view Index executed in 1.8878ms.
+2023-08-14 13:03:09.177 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 3.071ms
+2023-08-14 13:03:09.177 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:03:09.182 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 26.7145ms
+2023-08-14 13:03:09.387 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:03:09.388 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.7487ms
+2023-08-14 13:03:31.060 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:03:31.063 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:03:31.064 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:03:31.076 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:03:31.080 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 4.3349ms.
+2023-08-14 13:03:31.081 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 16.6044ms
+2023-08-14 13:03:31.081 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:03:31.081 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 20.8752ms
+2023-08-14 13:03:31.310 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:03:31.311 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.7446ms
+2023-08-14 13:10:01.627 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-14 13:10:01.915 +05:30 [INF] Now listening on: http://localhost:5157
+2023-08-14 13:10:01.921 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-14 13:10:01.922 +05:30 [INF] Hosting environment: Development
+2023-08-14 13:10:01.923 +05:30 [INF] Content root path: E:\Shiva_Folder\ASPIRE\.NET\Sample
+2023-08-14 13:10:02.188 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:10:02.316 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-14 13:10:02.568 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:10:02.678 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:10:03.594 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:10:04.297 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 766.9412ms.
+2023-08-14 13:10:04.406 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 1726.9634ms
+2023-08-14 13:10:04.406 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:10:04.488 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:10:04.493 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 3.7923ms
+2023-08-14 13:10:04.612 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 2431.7121ms
+2023-08-14 13:10:21.329 +05:30 [INF] Application is shutting down...
+2023-08-14 13:10:43.572 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-14 13:10:43.777 +05:30 [INF] Now listening on: http://localhost:5157
+2023-08-14 13:10:43.783 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-14 13:10:43.784 +05:30 [INF] Hosting environment: Development
+2023-08-14 13:10:43.784 +05:30 [INF] Content root path: E:\Shiva_Folder\ASPIRE\.NET\Sample
+2023-08-14 13:10:46.986 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/ - -
+2023-08-14 13:10:47.084 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-14 13:10:47.236 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:10:47.318 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:10:48.447 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:10:49.160 +05:30 [INF] Executed ViewResult - view Index executed in 652.4796ms.
+2023-08-14 13:10:49.169 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 1849.7373ms
+2023-08-14 13:10:49.169 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:10:49.367 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/ - - - 200 - text/html;+charset=utf-8 2383.4542ms
+2023-08-14 13:10:50.038 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-08-14 13:10:50.040 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - -
+2023-08-14 13:10:50.056 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\css\site.css'
+2023-08-14 13:10:50.056 +05:30 [INF] Sending file. Request path: '/Sample.styles.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\obj\Debug\net7.0\scopedcss\bundle\Sample.styles.css'
+2023-08-14 13:10:50.056 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 0 362 text/css 17.6888ms
+2023-08-14 13:10:50.056 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - - - 0 1880 text/css 16.2383ms
+2023-08-14 13:10:50.060 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/coin5.png - -
+2023-08-14 13:10:50.060 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/group.png - -
+2023-08-14 13:10:50.103 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:10:50.107 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 4.5110ms
+2023-08-14 13:10:50.131 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/money3.gif - -
+2023-08-14 13:10:50.136 +05:30 [INF] Sending file. Request path: '/images/coin5.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\coin5.png'
+2023-08-14 13:10:50.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/coin5.png - - - 200 17233 image/png 78.2053ms
+2023-08-14 13:10:50.144 +05:30 [INF] Sending file. Request path: '/images/money3.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\money3.gif'
+2023-08-14 13:10:50.144 +05:30 [INF] Sending file. Request path: '/images/group.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\group.png'
+2023-08-14 13:10:50.144 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/group.png - - - 200 138278 image/png 83.7042ms
+2023-08-14 13:10:50.144 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/money3.gif - - - 200 146424 image/gif 12.5260ms
+2023-08-14 13:10:50.152 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/img2.gif - -
+2023-08-14 13:10:50.191 +05:30 [INF] Sending file. Request path: '/images/img2.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\img2.gif'
+2023-08-14 13:10:50.191 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/img2.gif - - - 200 965461 image/gif 39.1149ms
+2023-08-14 13:10:50.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/favicon.ico - -
+2023-08-14 13:10:50.411 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\favicon.ico'
+2023-08-14 13:10:50.411 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/favicon.ico - - - 200 152126 image/x-icon 129.0138ms
+2023-08-14 13:11:08.540 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:11:08.560 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:11:08.568 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:11:08.621 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:11:08.737 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 138.8024ms.
+2023-08-14 13:11:08.737 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 168.1615ms
+2023-08-14 13:11:08.737 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:11:08.738 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 197.5582ms
+2023-08-14 13:11:09.000 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:11:09.001 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.8695ms
+2023-08-14 13:11:13.334 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229
+2023-08-14 13:11:13.393 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:11:13.530 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:11:17.920 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 13:11:18.007 +05:30 [WRN] No store type was specified for the decimal property 'TaxAmount' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 13:11:18.008 +05:30 [WRN] No store type was specified for the decimal property 'TotalPFAmount' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 13:11:28.227 +05:30 [INF] Executed DbCommand (413ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 13:11:29.375 +05:30 [INF] Login by Admin
+2023-08-14 13:11:29.379 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Admin/AdminDashboard.
+2023-08-14 13:11:29.379 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 15849.2235ms
+2023-08-14 13:11:29.379 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:11:29.484 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229 - 302 0 - 16149.8918ms
+2023-08-14 13:11:29.486 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - -
+2023-08-14 13:11:29.639 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 13:11:29.654 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-08-14 13:11:29.655 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - - - 302 0 - 169.3635ms
+2023-08-14 13:11:29.707 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 13:11:29.712 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:11:29.800 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:11:29.805 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:11:29.836 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 33.9716ms.
+2023-08-14 13:11:29.837 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 36.1136ms
+2023-08-14 13:11:29.837 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:11:29.838 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 130.0087ms
+2023-08-14 13:11:30.005 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:11:30.005 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5916ms
+2023-08-14 13:12:16.439 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 13:12:16.441 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:12:16.449 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:12:16.454 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:12:16.458 +05:30 [INF] Executed ViewResult - view Index executed in 7.1879ms.
+2023-08-14 13:12:16.464 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 14.4256ms
+2023-08-14 13:12:16.464 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:12:16.465 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 25.3547ms
+2023-08-14 13:12:16.718 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:12:16.719 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5796ms
+2023-08-14 13:12:31.368 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/AdminDashboard?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 13:12:31.385 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 13:12:31.429 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-08-14 13:12:31.430 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/AdminDashboard?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 302 0 - 62.2763ms
+2023-08-14 13:12:31.462 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdminDashboard%3FReturnUrl%3D%252FAdmin%252FAdmin%252FAdminDashboard - -
+2023-08-14 13:12:31.468 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:31.469 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:12:31.470 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:12:31.486 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 16.005ms.
+2023-08-14 13:12:31.486 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 17.3221ms
+2023-08-14 13:12:31.486 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:31.487 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdminDashboard%3FReturnUrl%3D%252FAdmin%252FAdmin%252FAdminDashboard - - - 200 - text/html;+charset=utf-8 24.5417ms
+2023-08-14 13:12:31.732 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:12:31.733 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 10.4895ms
+2023-08-14 13:12:38.778 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:12:38.779 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6623ms
+2023-08-14 13:12:39.127 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 13:12:39.129 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:39.129 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:12:39.131 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:12:39.143 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 12.7328ms.
+2023-08-14 13:12:39.144 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 14.3615ms
+2023-08-14 13:12:39.144 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:39.144 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 17.7613ms
+2023-08-14 13:12:39.419 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:12:39.420 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6393ms
+2023-08-14 13:12:40.126 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:12:40.128 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:40.131 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:12:40.132 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:12:40.137 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 4.7239ms.
+2023-08-14 13:12:40.137 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 6.1066ms
+2023-08-14 13:12:40.137 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:40.137 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 11.3544ms
+2023-08-14 13:12:40.341 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:12:40.343 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:40.344 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:12:40.344 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:12:40.360 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 15.3668ms.
+2023-08-14 13:12:40.361 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 17.1412ms
+2023-08-14 13:12:40.361 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:40.361 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 20.7739ms
+2023-08-14 13:12:40.825 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:12:40.825 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.0717ms
+2023-08-14 13:12:43.217 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:12:43.229 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:43.230 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:12:43.231 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:12:43.235 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 4.3114ms.
+2023-08-14 13:12:43.236 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 5.7364ms
+2023-08-14 13:12:43.236 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:43.236 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 19.6466ms
+2023-08-14 13:12:43.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:12:43.404 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5695ms
+2023-08-14 13:12:47.351 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 227
+2023-08-14 13:12:47.353 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:47.353 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:12:47.867 +05:30 [INF] Executed DbCommand (158ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 13:12:47.879 +05:30 [INF] Login by Muthu Kamatchi
+2023-08-14 13:12:47.888 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi.
+2023-08-14 13:12:47.889 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 535.3052ms
+2023-08-14 13:12:47.889 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:47.891 +05:30 [INF] Session started; Key:e4ae9ee5-5367-38fe-c4f0-c5834fb28a42, Id:3c2f6092-ed8a-41ee-4836-4529d87e6f82
+2023-08-14 13:12:47.901 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 227 - 302 0 - 549.4296ms
+2023-08-14 13:12:47.915 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi - -
+2023-08-14 13:12:47.924 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 13:12:47.927 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-08-14 13:12:47.944 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi - - - 302 0 - 29.1051ms
+2023-08-14 13:12:47.987 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DMuthu%2520Kamatchi - -
+2023-08-14 13:12:47.989 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:47.990 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:12:47.991 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:12:47.994 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 2.9513ms.
+2023-08-14 13:12:47.994 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 3.9403ms
+2023-08-14 13:12:47.994 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:12:47.994 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DMuthu%2520Kamatchi - - - 200 - text/html;+charset=utf-8 7.2317ms
+2023-08-14 13:12:48.277 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:12:48.277 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6597ms
+2023-08-14 13:13:43.175 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 227
+2023-08-14 13:13:43.177 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:43.177 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:45.091 +05:30 [INF] Executed DbCommand (473ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 13:13:45.095 +05:30 [INF] Login by Muthu Kamatchi
+2023-08-14 13:13:45.096 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi.
+2023-08-14 13:13:45.096 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 1918.4203ms
+2023-08-14 13:13:45.096 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:45.099 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 227 - 302 0 - 1923.8689ms
+2023-08-14 13:13:45.112 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi - -
+2023-08-14 13:13:45.120 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 13:13:45.121 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-08-14 13:13:45.122 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/EmployeeDashboard?name=Muthu%20Kamatchi - - - 302 0 - 10.1621ms
+2023-08-14 13:13:45.299 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DMuthu%2520Kamatchi - -
+2023-08-14 13:13:45.301 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:45.301 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:45.302 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:13:45.314 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 11.9569ms.
+2023-08-14 13:13:45.314 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 13.04ms
+2023-08-14 13:13:45.314 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:45.314 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FEmployee%2FEmployeeDashboard%3Fname%3DMuthu%2520Kamatchi - - - 200 - text/html;+charset=utf-8 15.4910ms
+2023-08-14 13:13:45.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:13:45.648 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.0426ms
+2023-08-14 13:13:48.970 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 13:13:49.099 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:13:49.100 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:49.115 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:13:49.127 +05:30 [INF] Executed ViewResult - view Index executed in 25.8064ms.
+2023-08-14 13:13:49.127 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 27.1655ms
+2023-08-14 13:13:49.127 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:13:49.128 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 157.6058ms
+2023-08-14 13:13:49.519 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:13:49.519 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5690ms
+2023-08-14 13:13:50.523 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 13:13:50.524 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:13:50.525 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:50.525 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:13:50.527 +05:30 [INF] Executed ViewResult - view Index executed in 2.0914ms.
+2023-08-14 13:13:50.528 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 3.1655ms
+2023-08-14 13:13:50.528 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:13:50.528 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 5.2663ms
+2023-08-14 13:13:50.772 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 13:13:50.773 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:13:50.774 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:50.775 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:13:50.793 +05:30 [INF] Executed ViewResult - view Index executed in 17.9912ms.
+2023-08-14 13:13:50.793 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 19.3156ms
+2023-08-14 13:13:50.793 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:13:50.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 21.7139ms
+2023-08-14 13:13:51.285 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - -
+2023-08-14 13:13:51.292 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:13:51.293 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:51.294 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:13:51.296 +05:30 [INF] Executed ViewResult - view Index executed in 2.2416ms.
+2023-08-14 13:13:51.297 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 3.25ms
+2023-08-14 13:13:51.297 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:13:51.297 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 12.0464ms
+2023-08-14 13:13:51.537 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:13:51.537 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4960ms
+2023-08-14 13:13:53.383 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:13:53.385 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:53.386 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:53.386 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:13:53.399 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 12.34ms.
+2023-08-14 13:13:53.399 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 13.5074ms
+2023-08-14 13:13:53.399 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:53.400 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 17.0057ms
+2023-08-14 13:13:53.616 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:13:53.616 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5401ms
+2023-08-14 13:13:57.352 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229
+2023-08-14 13:13:57.354 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:57.354 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:57.690 +05:30 [INF] Executed DbCommand (323ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 13:13:57.696 +05:30 [INF] Login by Admin
+2023-08-14 13:13:57.697 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Admin/AdminDashboard.
+2023-08-14 13:13:57.697 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 342.1231ms
+2023-08-14 13:13:57.697 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:57.698 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229 - 302 0 - 345.5042ms
+2023-08-14 13:13:57.713 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - -
+2023-08-14 13:13:57.721 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-08-14 13:13:57.721 +05:30 [INF] AuthenticationScheme: Cookies was challenged.
+2023-08-14 13:13:57.722 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - - - 302 0 - 8.4006ms
+2023-08-14 13:13:58.587 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - -
+2023-08-14 13:13:58.588 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:58.589 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:13:58.590 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:13:58.593 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 3.583ms.
+2023-08-14 13:13:58.594 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 4.696ms
+2023-08-14 13:13:58.594 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:13:58.594 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Home/Login?ReturnUrl=%2FAdmin%2FAdmin%2FAdminDashboard - - - 200 - text/html;+charset=utf-8 7.3798ms
+2023-08-14 13:13:58.859 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:13:58.860 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4553ms
+2023-08-14 13:14:38.114 +05:30 [INF] Application is shutting down...
+2023-08-14 13:14:55.799 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-14 13:14:56.091 +05:30 [INF] Now listening on: http://localhost:5157
+2023-08-14 13:14:56.097 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-14 13:14:56.097 +05:30 [INF] Hosting environment: Development
+2023-08-14 13:14:56.097 +05:30 [INF] Content root path: E:\Shiva_Folder\ASPIRE\.NET\Sample
+2023-08-14 13:15:48.372 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/ - -
+2023-08-14 13:15:48.544 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-14 13:15:48.973 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:15:49.186 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:15:49.791 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-14 13:15:50.229 +05:30 [INF] Executed ViewResult - view Index executed in 453.1038ms.
+2023-08-14 13:15:50.290 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 1102.5828ms
+2023-08-14 13:15:50.290 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-14 13:15:50.380 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/ - - - 200 - text/html;+charset=utf-8 2018.0173ms
+2023-08-14 13:15:50.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:15:50.616 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 4.5319ms
+2023-08-14 13:15:50.619 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-08-14 13:15:50.635 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-08-14 13:15:50.636 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - -
+2023-08-14 13:15:50.637 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\css\site.css'
+2023-08-14 13:15:50.637 +05:30 [INF] Sending file. Request path: '/Sample.styles.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\obj\Debug\net7.0\scopedcss\bundle\Sample.styles.css'
+2023-08-14 13:15:50.637 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - - - 0 1880 text/css 0.7167ms
+2023-08-14 13:15:50.637 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 0 362 text/css 2.0958ms
+2023-08-14 13:15:50.642 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/group.png - -
+2023-08-14 13:15:50.643 +05:30 [INF] Sending file. Request path: '/images/group.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\group.png'
+2023-08-14 13:15:50.643 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/group.png - - - 0 138278 image/png 1.0041ms
+2023-08-14 13:15:50.644 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/money3.gif - -
+2023-08-14 13:15:50.647 +05:30 [INF] Sending file. Request path: '/images/money3.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\money3.gif'
+2023-08-14 13:15:50.648 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/money3.gif - - - 0 146424 image/gif 3.6601ms
+2023-08-14 13:15:50.721 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-08-14 13:15:50.721 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/lib/bootstrap/dist/css/bootstrap.min.css - - - 0 162720 text/css 101.7528ms
+2023-08-14 13:15:50.839 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/favicon.ico - -
+2023-08-14 13:15:51.174 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\favicon.ico'
+2023-08-14 13:15:51.176 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/favicon.ico - - - 200 152126 image/x-icon 336.7600ms
+2023-08-14 13:15:55.562 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-14 13:15:55.574 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:15:55.579 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:15:55.605 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-14 13:15:55.822 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 222.6977ms.
+2023-08-14 13:15:55.823 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 243.4536ms
+2023-08-14 13:15:55.823 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:15:55.824 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 261.4256ms
+2023-08-14 13:15:55.908 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:15:55.909 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4292ms
+2023-08-14 13:15:59.059 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229
+2023-08-14 13:15:59.072 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:15:59.093 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller Sample.Controllers.HomeController (Sample).
+2023-08-14 13:16:01.090 +05:30 [WRN] No store type was specified for the decimal property 'NetSalary' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 13:16:01.140 +05:30 [WRN] No store type was specified for the decimal property 'TaxAmount' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 13:16:01.141 +05:30 [WRN] No store type was specified for the decimal property 'TotalPFAmount' on entity type 'Salary'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-14 13:16:05.902 +05:30 [INF] Executed DbCommand (351ms) [Parameters=[@__username_0='?' (Size = 20), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmpId], [e].[ContactNumber], [e].[DateOfBirth], [e].[DateOfJoin], [e].[Designation], [e].[Email], [e].[Location], [e].[Name], [e].[Password]
+FROM [Employees] AS [e]
+WHERE [e].[Name] = @__username_0 AND [e].[Password] = @__password_1
+2023-08-14 13:16:06.336 +05:30 [INF] Login by Admin
+2023-08-14 13:16:06.339 +05:30 [INF] Executing RedirectResult, redirecting to /Admin/Admin/AdminDashboard.
+2023-08-14 13:16:06.339 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 7246.459ms
+2023-08-14 13:16:06.339 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-14 13:16:06.400 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5157/Admin/Home/Login application/x-www-form-urlencoded 229 - 302 0 - 7340.4125ms
+2023-08-14 13:16:06.400 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - -
+2023-08-14 13:16:06.401 +05:30 [INF] Executing endpoint 'Sample.Controllers.AdminController.AdminDashboard (Sample)'
+2023-08-14 13:16:06.403 +05:30 [INF] Route matched with {action = "AdminDashboard", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AdminDashboard(System.String) on controller Sample.Controllers.AdminController (Sample).
+2023-08-14 13:16:06.434 +05:30 [INF] Executing ViewResult, running view ~/Views/Admin/AdminDashboard.cshtml.
+2023-08-14 13:16:06.483 +05:30 [INF] Executed ViewResult - view ~/Views/Admin/AdminDashboard.cshtml executed in 74.5347ms.
+2023-08-14 13:16:06.483 +05:30 [INF] Executed action Sample.Controllers.AdminController.AdminDashboard (Sample) in 79.7125ms
+2023-08-14 13:16:06.483 +05:30 [INF] Executed endpoint 'Sample.Controllers.AdminController.AdminDashboard (Sample)'
+2023-08-14 13:16:06.483 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Admin/AdminDashboard - - - 200 - text/html;+charset=utf-8 83.2197ms
+2023-08-14 13:16:06.616 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-14 13:16:06.616 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2889ms

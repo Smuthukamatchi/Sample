@@ -1,0 +1,61 @@
+2023-08-23 16:52:46.465 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewSalary - -
+2023-08-23 16:52:47.086 +05:30 [INF] Executing endpoint 'Sample.Controllers.EmployeeController.ViewSalary (Sample)'
+2023-08-23 16:52:47.089 +05:30 [INF] Route matched with {action = "ViewSalary", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewSalary() on controller Sample.Controllers.EmployeeController (Sample).
+2023-08-23 16:52:48.149 +05:30 [INF] Executed DbCommand (1,057ms) [Parameters=[@__employeeName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[SalaryId], [s].[Designation], [s].[EmpId], [s].[EmployeeName], [s].[NetSalary], [s].[SalaryAmount], [s].[SalaryDate], [s].[TaxAmount], [s].[TotalPFAmount]
+FROM [Salaries] AS [s]
+WHERE [s].[EmployeeName] = @__employeeName_0
+ORDER BY [s].[SalaryDate] DESC
+2023-08-23 16:52:48.668 +05:30 [INF] Executed DbCommand (516ms) [Parameters=[@__8__locals1_employeeName_0='?' (Size = 4000), @__selectedYear_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([s].[SalaryAmount]), 0.0)
+FROM [Salaries] AS [s]
+WHERE [s].[EmployeeName] = @__8__locals1_employeeName_0 AND DATEPART(year, [s].[SalaryDate]) = @__selectedYear_1
+2023-08-23 16:52:48.672 +05:30 [INF] Executing ViewResult, running view ~/Views/Employee/ViewSalary.cshtml.
+2023-08-23 16:52:48.715 +05:30 [INF] Executed ViewResult - view ~/Views/Employee/ViewSalary.cshtml executed in 45.961ms.
+2023-08-23 16:52:48.715 +05:30 [INF] Executed action Sample.Controllers.EmployeeController.ViewSalary (Sample) in 1625.8636ms
+2023-08-23 16:52:48.716 +05:30 [INF] Executed endpoint 'Sample.Controllers.EmployeeController.ViewSalary (Sample)'
+2023-08-23 16:52:48.716 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewSalary - - - 200 - text/html;+charset=utf-8 2250.8577ms
+2023-08-23 16:52:48.898 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:52:48.898 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3071ms
+2023-08-23 16:52:52.532 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewSalary - -
+2023-08-23 16:52:52.604 +05:30 [INF] Executing endpoint 'Sample.Controllers.EmployeeController.ViewSalary (Sample)'
+2023-08-23 16:52:52.604 +05:30 [INF] Route matched with {action = "ViewSalary", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewSalary() on controller Sample.Controllers.EmployeeController (Sample).
+2023-08-23 16:52:53.106 +05:30 [INF] Executed DbCommand (495ms) [Parameters=[@__employeeName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[SalaryId], [s].[Designation], [s].[EmpId], [s].[EmployeeName], [s].[NetSalary], [s].[SalaryAmount], [s].[SalaryDate], [s].[TaxAmount], [s].[TotalPFAmount]
+FROM [Salaries] AS [s]
+WHERE [s].[EmployeeName] = @__employeeName_0
+ORDER BY [s].[SalaryDate] DESC
+2023-08-23 16:52:53.260 +05:30 [INF] Executed DbCommand (152ms) [Parameters=[@__8__locals1_employeeName_0='?' (Size = 4000), @__selectedYear_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([s].[SalaryAmount]), 0.0)
+FROM [Salaries] AS [s]
+WHERE [s].[EmployeeName] = @__8__locals1_employeeName_0 AND DATEPART(year, [s].[SalaryDate]) = @__selectedYear_1
+2023-08-23 16:52:53.260 +05:30 [INF] Executing ViewResult, running view ~/Views/Employee/ViewSalary.cshtml.
+2023-08-23 16:52:53.261 +05:30 [INF] Executed ViewResult - view ~/Views/Employee/ViewSalary.cshtml executed in 0.9756ms.
+2023-08-23 16:52:53.261 +05:30 [INF] Executed action Sample.Controllers.EmployeeController.ViewSalary (Sample) in 656.5642ms
+2023-08-23 16:52:53.261 +05:30 [INF] Executed endpoint 'Sample.Controllers.EmployeeController.ViewSalary (Sample)'
+2023-08-23 16:52:53.262 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewSalary - - - 200 - text/html;+charset=utf-8 729.1579ms
+2023-08-23 16:52:53.490 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:52:53.490 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2939ms
+2023-08-23 16:52:55.423 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewSalary - -
+2023-08-23 16:52:55.424 +05:30 [INF] Executing endpoint 'Sample.Controllers.EmployeeController.ViewSalary (Sample)'
+2023-08-23 16:52:55.424 +05:30 [INF] Route matched with {action = "ViewSalary", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ViewSalary() on controller Sample.Controllers.EmployeeController (Sample).
+2023-08-23 16:52:55.597 +05:30 [INF] Executed DbCommand (171ms) [Parameters=[@__employeeName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[SalaryId], [s].[Designation], [s].[EmpId], [s].[EmployeeName], [s].[NetSalary], [s].[SalaryAmount], [s].[SalaryDate], [s].[TaxAmount], [s].[TotalPFAmount]
+FROM [Salaries] AS [s]
+WHERE [s].[EmployeeName] = @__employeeName_0
+ORDER BY [s].[SalaryDate] DESC
+2023-08-23 16:52:56.249 +05:30 [INF] Executed DbCommand (651ms) [Parameters=[@__8__locals1_employeeName_0='?' (Size = 4000), @__selectedYear_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(SUM([s].[SalaryAmount]), 0.0)
+FROM [Salaries] AS [s]
+WHERE [s].[EmployeeName] = @__8__locals1_employeeName_0 AND DATEPART(year, [s].[SalaryDate]) = @__selectedYear_1
+2023-08-23 16:52:56.250 +05:30 [INF] Executing ViewResult, running view ~/Views/Employee/ViewSalary.cshtml.
+2023-08-23 16:52:56.251 +05:30 [INF] Executed ViewResult - view ~/Views/Employee/ViewSalary.cshtml executed in 0.9307ms.
+2023-08-23 16:52:56.251 +05:30 [INF] Executed action Sample.Controllers.EmployeeController.ViewSalary (Sample) in 827.0437ms
+2023-08-23 16:52:56.251 +05:30 [INF] Executed endpoint 'Sample.Controllers.EmployeeController.ViewSalary (Sample)'
+2023-08-23 16:52:56.251 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Employee/ViewSalary - - - 200 - text/html;+charset=utf-8 828.1743ms
+2023-08-23 16:52:56.386 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:52:56.386 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4245ms
+2023-08-23 16:52:57.749 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:52:57.749 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2562ms
+2023-08-23 16:52:59.140 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:52:59.141 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2547ms

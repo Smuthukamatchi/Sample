@@ -1,0 +1,59 @@
+@{
+    ViewData["Title"] = "Employee's Profile";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+
+<!-- Content of the ViewProfile view goes here -->
+<div class="text-begin ">
+    <h2 class="display-7 align-text-center text-warning ">@ViewData["EmployeeName"]'s Profile</h2>
+</div>
+<div class="container ">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card ">
+                <div class="card-body bg-dark ">
+                <table class="table bg-dark text-light ">
+                <tr>
+                
+                    <th>Employee ID</th>
+                    <td>@ViewData["EmployeeId"]</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>@ViewData["EmployeeEmail"]</td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>@ViewData["EmployeePhone"]</td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>@ViewData["EmployeeLocation"]</td>
+                </tr>
+                <tr>
+                    <th>Designation</th>
+                    <td>@ViewData["EmployeeDesignation"]</td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>@ViewData["EmployeeDOB"]</td>
+                </tr>
+                <tr>
+                    <th>Date of Joining</th>
+                    <td>@ViewData["EmployeeDOJ"]</td>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td>@ViewData["EmployeePassword"]</td>
+                </tr>
+                <!-- Add other properties you want to display -->
+            </table>
+        </div>
+        </div>
+        </div>
+<div class="text-center">
+ <a class="btn btn-warning" asp-controller="Employee" asp-action="EditProfile">Edit</a>
+    <!-- <a href="@Url.Action("EditProfile")" class="btn btn-warning"> Edit</a> -->
+</div>
+    </div>
+</div>

@@ -1,0 +1,89 @@
+/* _content/Sample/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-7hkig27bv6] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-7hkig27bv6] {
+  color: #0077cc;
+}
+
+.btn-primary[b-7hkig27bv6] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-7hkig27bv6], .nav-pills .show > .nav-link[b-7hkig27bv6] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-7hkig27bv6] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-7hkig27bv6] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-7hkig27bv6] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-7hkig27bv6] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-7hkig27bv6] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+.login-box[b-7hkig27bv6] {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-form .form-group[b-7hkig27bv6] {
+  margin-bottom: 20px;
+}
+
+.login-form label[b-7hkig27bv6] {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-form .form-control[b-7hkig27bv6] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-form button[b-7hkig27bv6] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover[b-7hkig27bv6] {
+  background-color: #0069d9;
+}

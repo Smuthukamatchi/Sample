@@ -1,0 +1,82 @@
+@model Sample.Data.Employee
+
+@{
+    ViewData["Title"] = "Add Employee";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var successMessage = TempData["SuccessMessage"] as string;
+}
+
+<div class="text-begin">
+    <h2 class="display-7 text-warning">Add Employee</h2>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card bg-dark text-light">
+                <div class="card-body p-3" style="max-height: 400px; overflow-y: auto;">
+                    @using (Html.BeginForm("AddEmployee", "Admin", FormMethod.Post))
+                    {
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name)
+                            @Html.TextBoxFor(model => model.Name, new { @class = "form-control", required = "required", pattern = "[A-Za-z ]+" })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DateOfBirth)
+                            @Html.TextBoxFor(model => model.DateOfBirth, "{0:dd/MM/yyyy}", new { @class = "form-control", required = "required", pattern = "\\d{2}/\\d{2}/\\d{4}" })
+                            @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Email)
+                            @Html.TextBoxFor(model => model.Email, new { @class = "form-control", required = "required", type = "email" })
+                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Location)
+                            @Html.TextBoxFor(model => model.Location, new { @class = "form-control", required = "required" })
+                            @Html.ValidationMessageFor(model => model.Location, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ContactNumber)
+                            @Html.TextBoxFor(model => model.ContactNumber, new { @class = "form-control", required = "required", pattern = "[0-9]+" })
+                            @Html.ValidationMessageFor(model => model.ContactNumber, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Designation)
+                            @Html.TextBoxFor(model => model.Designation, new { @class = "form-control", required = "required" })
+                            @Html.ValidationMessageFor(model => model.Designation, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.DateOfJoin)
+                            @Html.TextBoxFor(model => model.DateOfJoin, "{0:dd/MM/yyyy}", new { @class = "form-control", required = "required", pattern = "\\d{2}/\\d{2}/\\d{4}" })
+                            @Html.ValidationMessageFor(model => model.DateOfJoin, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Password)
+                            @Html.PasswordFor(model => model.Password, new { @class = "form-control", required = "required", minlength = "6" })
+                            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="btn-container">
+                            <input type="submit" value="Add" class="btn btn-warning">
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <script>
+        alert('@successMessage');
+    </script>
+}

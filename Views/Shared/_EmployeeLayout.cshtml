@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Payroll Management System</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Sample.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-image: url('/images/img2.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            white-space: nowrap;
+            line-height: 60px;
+        }
+        .form-box {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .form-group label {
+            width: 120px;
+            margin-right: 10px;
+            line-height: 28px;
+        }
+
+        .form-control {
+            flex: 1;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background-color: #0069d9;
+        }
+        .nav-item:hover{
+            text-decoration: dashed;
+            text-decoration-color: black;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-transparent border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" asp-area="" asp-controller="Employee" asp-action="EmployeeDashboard">
+                    <img src="/images/employee.png" alt="Logo" class="img-fluid rounded-circle" style="max-height: 40px; max-width: 100px; margin-right: 10px;" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
+                    <ul class="navbar-nav flex-grow-1 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-light " asp-area="" asp-controller="Employee" asp-action="ViewProfile">View Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " asp-area="" asp-controller="Employee" asp-action="ViewSalary">View Salary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Employee" asp-action="AddAttendance">Add Attendance</a>
+                        </li>
+                        <li class="nav-item justify-content-end">
+                            <a class="nav-link text-danger" asp-area="" asp-controller="Home" asp-action="Index">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="container">
+        <!-- Content of the _Layout.cshtml goes here -->
+        @RenderBody()
+    </div>
+
+
+<footer class="border-top footer text-muted">
+    <div class="container-fluid text-light d-flex justify-content-between align-items-center">
+        <div>
+            &copy; 2023 - Muthu Kamatchi - <a asp-area="" asp-controller="Home" asp-action="Index">Index</a>
+        </div>
+        <div class="text-end">
+            <img src="/images/money3.gif" alt="Logo" class="img-fluid rounded-circle" style="max-height: 50px; max-width: 200px; margin-right: 10px;" />
+        </div>
+    </div>
+</footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

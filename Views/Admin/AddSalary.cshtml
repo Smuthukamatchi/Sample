@@ -1,0 +1,59 @@
+@model Sample.Data.Employee
+
+@{
+    ViewData["Title"] = "Add Salary";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var successMessage = TempData["SuccessMessage"] as string;
+    TempData["SuccessMessage"] = null;
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="form-box card bg-dark text-light mt-4">
+                <div class="card-header text-center">
+                    <h5 class="display-6">Add Salary</h5>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Admin" asp-action="AddSalary">
+                        <input type="hidden" name="empId" value="@Model.EmpId" />
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <h4 id="name">@Model.Name</h4>
+                        </div>
+                        <div class="form-group">
+                            <label for="designation">Designation:</label>
+                            <h4 id="designation">@Model.Designation</h4>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="count">Attendance Count: </label>
+                            <h4 id="count"> @ViewData["AttendanceCount"]</h4>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="workingDays">Working Days:</label>
+                            <input type="number" id="workingDays" name="workingDays" class="form-control" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="salary">Salary:</label>
+                            <input type="number" id="salary" name="salary" class="form-control" required />
+                        </div>
+
+                        <div class="btn-container text-center">
+                            <button type="submit" class="btn btn-warning">Add Salary</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <script>
+        alert('@successMessage');
+    </script>
+}

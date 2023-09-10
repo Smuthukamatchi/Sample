@@ -1,0 +1,33 @@
+@model Sample.Data.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="text-begin">
+    <h2 class="display-7 text-warning ">Employee Details</h2>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-body  bg-dark text-light">
+                    <h4 class="card-title text-decoration-underline text-center">Name: @Model.Name</h4>
+                    <p class="card-text">Designation: @Model.Designation</p>
+                    <p class="card-text">Email: @Model.Email</p>
+                    <p class="card-text">Contact Number: @Model.ContactNumber</p>
+                    <p class="card-text">Location: @Model.Location</p>
+                    <p class="card-text">Date of Birth: @Model.DateOfBirth.ToShortDateString()</p>
+                    <p class="card-text">Date of Join: @Model.DateOfJoin.ToShortDateString()</p>
+                <div class="text-center">
+                    <a class="btn btn-warning" asp-controller="Admin" asp-action="ViewEmployee">Back</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

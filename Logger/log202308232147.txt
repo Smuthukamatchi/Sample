@@ -1,0 +1,5 @@
+2023-08-23 21:47:50.383 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-23 21:47:50.682 +05:30 [INF] Now listening on: http://localhost:5157
+2023-08-23 21:47:50.688 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-23 21:47:50.688 +05:30 [INF] Hosting environment: Development
+2023-08-23 21:47:50.689 +05:30 [INF] Content root path: E:\Shiva_Folder\ASPIRE\.NET\Sample

@@ -1,0 +1,50 @@
+2023-08-23 16:46:29.531 +05:30 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-23 16:46:29.879 +05:30 [INF] Now listening on: http://localhost:5157
+2023-08-23 16:46:29.900 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-23 16:46:29.900 +05:30 [INF] Hosting environment: Development
+2023-08-23 16:46:29.901 +05:30 [INF] Content root path: E:\Shiva_Folder\ASPIRE\.NET\Sample
+2023-08-23 16:46:47.615 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/ - -
+2023-08-23 16:46:47.949 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-08-23 16:46:48.155 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-23 16:46:48.331 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Sample.Controllers.HomeController (Sample).
+2023-08-23 16:46:50.438 +05:30 [INF] Executing ViewResult, running view Index.
+2023-08-23 16:46:50.803 +05:30 [INF] Executed ViewResult - view Index executed in 377.657ms.
+2023-08-23 16:46:50.807 +05:30 [INF] Executed action Sample.Controllers.HomeController.Index (Sample) in 2475.5627ms
+2023-08-23 16:46:50.807 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Index (Sample)'
+2023-08-23 16:46:50.877 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-08-23 16:46:50.879 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - -
+2023-08-23 16:46:50.879 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/ - - - 200 - text/html;+charset=utf-8 3267.5589ms
+2023-08-23 16:46:50.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-08-23 16:46:50.965 +05:30 [INF] Sending file. Request path: '/Sample.styles.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\obj\Debug\net7.0\scopedcss\bundle\Sample.styles.css'
+2023-08-23 16:46:50.971 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Sample.styles.css?v=RTkldGKB8bO8yPEjB6cVTIqgFjpb55XZxTRK-tBznAE - - - 200 1880 text/css 92.7129ms
+2023-08-23 16:46:50.975 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\css\site.css'
+2023-08-23 16:46:50.975 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 200 362 text/css 94.9614ms
+2023-08-23 16:46:51.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:46:51.330 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.8274ms
+2023-08-23 16:46:51.732 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-08-23 16:46:51.733 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 855.5170ms
+2023-08-23 16:46:51.737 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/coin5.png - -
+2023-08-23 16:46:51.738 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/group.png - -
+2023-08-23 16:46:51.845 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/money3.gif - -
+2023-08-23 16:46:51.846 +05:30 [INF] Sending file. Request path: '/images/coin5.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\coin5.png'
+2023-08-23 16:46:51.846 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/coin5.png - - - 200 17233 image/png 108.7904ms
+2023-08-23 16:46:51.846 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/images/img2.gif - -
+2023-08-23 16:46:51.883 +05:30 [INF] Sending file. Request path: '/images/group.png'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\group.png'
+2023-08-23 16:46:51.884 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/group.png - - - 200 138278 image/png 145.8611ms
+2023-08-23 16:46:51.930 +05:30 [INF] Sending file. Request path: '/images/money3.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\money3.gif'
+2023-08-23 16:46:51.931 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/money3.gif - - - 200 146424 image/gif 85.6468ms
+2023-08-23 16:46:52.038 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/favicon.ico - -
+2023-08-23 16:46:52.497 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\favicon.ico'
+2023-08-23 16:46:52.497 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/favicon.ico - - - 0 152126 image/x-icon 458.5549ms
+2023-08-23 16:46:53.563 +05:30 [INF] Sending file. Request path: '/images/img2.gif'. Physical path: 'E:\Shiva_Folder\ASPIRE\.NET\Sample\wwwroot\images\img2.gif'
+2023-08-23 16:46:53.563 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/images/img2.gif - - - 200 965461 image/gif 1716.7181ms
+2023-08-23 16:46:56.032 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - -
+2023-08-23 16:46:56.037 +05:30 [INF] Executing endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-23 16:46:56.041 +05:30 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller Sample.Controllers.HomeController (Sample).
+2023-08-23 16:46:56.062 +05:30 [INF] Executing ViewResult, running view ~/Views/Home/Login.cshtml.
+2023-08-23 16:46:56.267 +05:30 [INF] Executed ViewResult - view ~/Views/Home/Login.cshtml executed in 206.9196ms.
+2023-08-23 16:46:56.267 +05:30 [INF] Executed action Sample.Controllers.HomeController.Login (Sample) in 226.196ms
+2023-08-23 16:46:56.267 +05:30 [INF] Executed endpoint 'Sample.Controllers.HomeController.Login (Sample)'
+2023-08-23 16:46:56.268 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/Admin/Home/Login - - - 200 - text/html;+charset=utf-8 235.8808ms
+2023-08-23 16:46:56.356 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - -
+2023-08-23 16:46:56.357 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5157/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4037ms
